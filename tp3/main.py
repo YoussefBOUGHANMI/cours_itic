@@ -10,7 +10,8 @@ import os
 
 SESSION_PASSWORD = "challenge2026"   # ← Changez ce mot de passe
 
-TARGET_CSV_PATH  = "data_test.csv"   # Fichier avec la vérité terrain
+BASE_DIR = pathlib.Path(__file__).parent.resolve()
+TARGET_CSV_PATH = str(BASE_DIR / "data_test.csv")
 TARGET_COLUMN    = "target"          # Colonne cible (1 = fraude, 0 = normal)
 ID_COLUMN        = "ID"              # Colonne ID dans data_test.csv
 
