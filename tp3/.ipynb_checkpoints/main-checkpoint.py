@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import datetime
 import os
+import pathlib
 
 # ╔══════════════════════════════════════════════════════════════════════════════╗
 # ║  CONFIGURATION — MODIFIEZ ICI AVANT LE CHALLENGE                            ║
