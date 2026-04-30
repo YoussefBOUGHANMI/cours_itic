@@ -15,9 +15,9 @@ TARGET_CSV_PATH = "/mount/src/cours_itic/tp3/data_test.csv"
 TARGET_COLUMN    = "target"          # Colonne cible (1 = fraude, 0 = normal)
 ID_COLUMN        = "ID"              # Colonne ID dans data_test.csv
 
-TEAMS    = ["Équipe 1", "Équipe 2", "Équipe 3", "Équipe 4", "Équipe 5"]
+TEAMS    = ["CC", "Anbu", "NEXUS2", "A² Squad"]
 MAX_TESTS = 5
-TOP_N     = 500
+TOP_N     = 1000
 DATA_FILE = "challenge_scores.json"
 
 # ╔══════════════════════════════════════════════════════════════════════════════╗
